@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AEU Login</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Marquee */
+marquee {
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Login box */
+.login-box {
+    background: white;
+    width: 360px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+/* Title */
+.login-box h2 {
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 9px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e3c72;
+}
+
+/* Register */
+.register {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #2a5298;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<marquee direction="right">
+    <h1>Welcome to NIB | សូមស្វាគមន៍មកកាន់ NIB</h1>
+</marquee>
+
+<div class="login-box">
+
+    <!-- Logo (replace logo.png with your image) -->
+    <img src= "images.jpg "class="logo" alt="NIB Logo">
+
+    <h2>NIB Login / ចូលប្រើប្រាស់</h2>
+
+    <!-- Link to accounting page -->
+    <form action="acc.html">
+
+        <input type="text" placeholder="Username / ឈ្មោះអ្នកប្រើ" required>
+        <input type="password" placeholder="Password / លេខសម្ងាត់" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <div class="register">
+        <p>Don't have an account?  
+        <a href="register.html">Register</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
